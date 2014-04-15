@@ -30,4 +30,4 @@ fab fabfile.jenkins fabfile.jenkins_install_build:db_password=my_password
 fab fabfile.jenkins fabfile.update_project
 
 
-
+Développement commandité par http://tp1.ca
