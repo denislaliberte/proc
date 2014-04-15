@@ -1,0 +1,8 @@
+db_name: project_db
+db_url: localhost
+db_user: root
+drupal_user_name: admin
+drupal_user_password: jenkins
+project_path: /var/lib/jenkins/workspace/project_workspace
+site_name: project
+local_url: project.jenkins.server.com

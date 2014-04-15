@@ -1,0 +1,10 @@
+db_name: project_db
+db_password: ""
+db_url: localhost
+db_user: root
+drupal_user_name: admin
+drupal_user_password: ""
+hostname: root@my_dev.com
+project_path: /www/sites/my_project/htdocs
+site_name: My_project
+ssh: root@my_dev.com
