@@ -1,0 +1,10 @@
+db_name: drupal
+db_password: ''
+db_url: localhost
+db_user: root
+deploy_module: deployt
+drupal_user_name: admin
+drupal_user_password: admin
+hostname: localhost
+project_path: /Users/dl/Sites/drupal
+site_name: drupal

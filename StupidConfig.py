@@ -4,11 +4,11 @@ config_path=""
 new_value = False
 
 def generate_config(name):
-  variable_path ="config_files/" + name + ".yaml"
+  variable_path ="proc/config_files/" + name + ".yaml"
   return StupidConfig(variable_path)
 
 def generate_config_absolute_path(name,absolute_path):
-  variable_path =absolute_path +"/config_files/" + name + ".yaml"
+  variable_path =absolute_path +"/proc/config_files/" + name + ".yaml"
   return StupidConfig(variable_path)
 
 

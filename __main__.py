@@ -20,7 +20,8 @@ from fabfile import *
 
 if __name__ == '__main__':
   arguments = docopt(__doc__, version='Procedure beta 0.0.1')
-  print(arguments)
+  if(arguments['--debug']):
+    print(arguments)
   if(arguments['--remote']):
     remote(arguments['<environnement>'])
   elif(arguments['jenkins_install'] or arguments['jenkins_update'] ):
