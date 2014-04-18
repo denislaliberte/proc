@@ -54,7 +54,7 @@ def jenkins_install_build(db_password):
   env.run(command_composer)
 
 @task
-def instal(no_prompt=False):
+def install(no_prompt=False):
   install_command = install_drupal(config, no_prompt)
   deploy_module = config.get_variable("deploy_module")
   install_module_command = install_module(deploy_module,config)
